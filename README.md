@@ -89,7 +89,9 @@ If the AWS Account has been provisioned by your AWS Instructor, follow the next 
 
 8. In the terminal, type the following command:
 
+```
 git clone https://github.com/aws/amazon-sagemaker-examples.git
+```
 
 9. After completion of step 8 you will have an "amazon-sagemaker-examples" folder created in left panel of the studio
 
