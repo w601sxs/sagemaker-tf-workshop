@@ -101,10 +101,10 @@ git clone https://github.com/aws/amazon-sagemaker-examples.git
 (or, where to find the right labs...)
 
 - Lab 1 - sagemaker-python-sdk/tensorboard_keras
-- Lab 2 - sagemaker-debugger/tensorflow_builtin_rule/tf-mnist-builtin-rule.ipynb
+- Lab 2 - sagemaker-debugger/tensorflow_builtin_rule
 - Lab 3 - training/distributed_training/tensorflow/data_parallel/mnist
 
-
+**Find and run the noteook (.ipynb file) in each of these folders**
 
 
 
