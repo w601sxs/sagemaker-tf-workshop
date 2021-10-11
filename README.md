@@ -2,13 +2,12 @@
 
 Instructions for the following labs are in the notebooks. Make sure you see the "Getting started" section below
 
-- Lab 1 : Data Prep
-- Lab 2 : Train using Amazon Comprehend
-- Lab 3 : Train using a built-in algorithm on SageMaker
-- Lab 4 : Train using a custom Script on SageMaker
-- Lab 5 : Using SageMaker Pipelines for model comparison 
+- Prereq - Set up Studio (see instructions below)
+- Lab 1 - https://github.com/aws/amazon-sagemaker-examples/tree/master/sagemaker-python-sdk/tensorboard_keras
+- Lab 2 - https://github.com/aws/amazon-sagemaker-examples/blob/master/sagemaker-debugger/tensorflow_builtin_rule/tf-mnist-builtin-rule.ipynb
+- Lab 3 - https://github.com/aws/amazon-sagemaker-examples/tree/master/training/distributed_training/tensorflow/data_parallel/mnist
 
-> Note that Labs 1 through 4 are notebooks in the main workshop folder, and Lab 5 is a folder!
+> Note that Labs 1 through 3 are notebooks that are found in the main SageMaker example repository, and instructions to download and use these labs are included at the end of these instructions
 
 ## Getting Started
 
@@ -90,11 +89,20 @@ If the AWS Account has been provisioned by your AWS Instructor, follow the next 
 
 8. In the terminal, type the following command:
 
-git clone https://github.com/w601sxs/sagemaker-nlp-workshop-data.git
+git clone https://github.com/aws/amazon-sagemaker-examples.git
 
-9. After completion of step 8 you will have sagemaker-nlp-workshop-data folder created in left panel of the studio:
+9. After completion of step 8 you will have an "amazon-sagemaker-examples" folder created in left panel of the studio
 
-10. All labs are placed inside the "workshop" folder, and you can get started with Lab 1
+10. All labs are placed inside the folders described below, and you can get now get started with Lab 1!
+
+### Workshop labs structure 
+(or, where to find the right labs...)
+
+- Lab 1 - sagemaker-python-sdk/tensorboard_keras
+- Lab 2 - sagemaker-debugger/tensorflow_builtin_rule/tf-mnist-builtin-rule.ipynb
+- Lab 3 - training/distributed_training/tensorflow/data_parallel/mnist
+
+
 
 
 
